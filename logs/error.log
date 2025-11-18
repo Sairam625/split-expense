@@ -1,0 +1,175 @@
+2025-11-17T16:16:11.300Z | ERROR  | DB Connection Fail | MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/Users/apple/Desktop/SplitApp/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:231:30)
+    at MessageStream.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:61:60)
+    at MessageStream.emit (node:events:524:28)
+    at processIncomingData (/Users/apple/Desktop/SplitApp/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:125:16)
+    at MessageStream._write (/Users/apple/Desktop/SplitApp/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1009:22)
+    at TLSSocket.emit (node:events:524:28)
+2025-11-17T16:16:36.688Z | ERROR  | [Invalid Route] /
+2025-11-17T16:16:36.741Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-17T16:23:34.563Z | ERROR  | [Invalid Route] /
+2025-11-17T16:23:35.642Z | ERROR  | [Invalid Route] /
+2025-11-17T16:23:38.179Z | ERROR  | [Invalid Route] /
+2025-11-17T16:23:49.935Z | ERROR  | [Invalid Route] /
+2025-11-17T16:23:49.938Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-17T16:24:05.160Z | ERROR  | [Invalid Route] /
+2025-11-17T16:24:05.376Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-17T16:40:25.601Z | ERROR  | [Invalid Route] /
+2025-11-17T17:47:37.916Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:47:44.830Z | ERROR  | [Invalid Route] /main.65ca963fe0e735153a07.hot-update.json
+2025-11-17T17:47:45.287Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:48:37.991Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:48:53.823Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:49:10.937Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-17T17:57:30.468Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:57:30.825Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-17T17:57:43.033Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:57:43.378Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-17T17:58:56.197Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-17T17:58:56.487Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-17T17:59:01.089Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T05:29:50.720Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T05:30:26.326Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:30:43.753Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:31:06.532Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T05:31:06.872Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-18T05:31:22.862Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T05:31:56.277Z | ERROR  | [Invalid Route] /apple-touch-icon-precomposed.png
+2025-11-18T05:31:56.279Z | ERROR  | [Invalid Route] /apple-touch-icon.png
+2025-11-18T05:31:56.281Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-18T05:31:56.419Z | ERROR  | [Invalid Route] /apple-touch-icon-precomposed.png
+2025-11-18T05:31:56.421Z | ERROR  | [Invalid Route] /apple-touch-icon.png
+2025-11-18T05:31:56.423Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-18T05:32:37.862Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:33:28.272Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:34:54.548Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:34:55.616Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:35:03.786Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:35:13.092Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/apple/Desktop/SplitApp/components/user.js:74:23)
+2025-11-18T05:37:21.660Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T08:57:07.958Z | ERROR  | DB Connection Fail | Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rkzsqre.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-11-18T08:57:48.006Z | ERROR  | URL : /api/expense/v1/user | staus : undefined | message: Operation `expenses.find()` buffering timed out after 10000ms
+2025-11-18T08:57:58.036Z | ERROR  | URL : /api/group/v1/user | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T08:57:59.524Z | ERROR  | URL : /api/group/v1/user | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T08:58:00.418Z | ERROR  | URL : /api/expense/v1/user | staus : undefined | message: Operation `expenses.find()` buffering timed out after 10000ms
+2025-11-18T08:58:01.164Z | ERROR  | URL : /api/users/v1/view | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T08:58:26.506Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T08:59:04.838Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T08:59:23.804Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T08:59:44.208Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T08:59:56.150Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T09:00:10.560Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T09:00:34.833Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T09:01:12.118Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/SplitApp/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T09:02:04.446Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T09:02:52.163Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T09:04:22.475Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T09:04:22.943Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-18T09:04:42.125Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T09:05:17.339Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T09:05:17.383Z | ERROR  | URL : /api/group/v1/user | staus : 400 | message: User Id not found !
+2025-11-18T09:05:41.072Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T09:05:41.228Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-18T09:05:42.923Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T16:45:29.776Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/connection.js:695:11)
+    at /Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:414:10
+    at /Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:1290:10)
+    at Mongoose.connect (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:413:20)
+    at Object.<anonymous> (/Users/apple/Desktop/final_CCproj/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+2025-11-18T16:46:07.910Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:46:07.924Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:46:11.053Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:46:11.064Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:46:42.161Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T16:47:02.881Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:188:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+2025-11-18T16:47:20.873Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms
+2025-11-18T16:48:02.328Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/connection.js:695:11)
+    at /Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:414:10
+    at /Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:1290:10)
+    at Mongoose.connect (/Users/apple/Desktop/final_CCproj/node_modules/mongoose/lib/index.js:413:20)
+    at Object.<anonymous> (/Users/apple/Desktop/final_CCproj/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+2025-11-18T16:48:23.754Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:48:23.761Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:48:40.121Z | ERROR  | URL : /api/users/v1/emailList | API Authentication Fail | message: Invalid Token
+2025-11-18T16:48:46.483Z | ERROR  | URL : /api/expense/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:48:46.490Z | ERROR  | URL : /api/group/v1/user | API Authentication Fail | message: Invalid Token
+2025-11-18T16:57:05.582Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T16:57:24.628Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T16:57:34.101Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T16:57:34.363Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-18T16:57:53.276Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-18T16:58:05.356Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T16:58:05.506Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-18T17:02:18.721Z | ERROR  | [Invalid Route] /
+2025-11-18T17:02:18.724Z | ERROR  | [Invalid Route] /favicon.ico
+2025-11-18T17:24:58.681Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/apple/Desktop/split-expense/node_modules/mongoose/lib/connection.js:695:11)
+    at /Users/apple/Desktop/split-expense/node_modules/mongoose/lib/index.js:414:10
+    at /Users/apple/Desktop/split-expense/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/apple/Desktop/split-expense/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/apple/Desktop/split-expense/node_modules/mongoose/lib/index.js:1290:10)
+    at Mongoose.connect (/Users/apple/Desktop/split-expense/node_modules/mongoose/lib/index.js:413:20)
+    at Object.<anonymous> (/Users/apple/Desktop/split-expense/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+2025-11-18T17:26:23.128Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-18T17:26:23.514Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
