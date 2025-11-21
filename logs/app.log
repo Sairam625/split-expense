@@ -570,3 +570,75 @@
 2025-11-18T17:26:23.254Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
 2025-11-18T17:26:23.306Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh161@gmail.com"}
 2025-11-18T17:26:23.514Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-19T06:12:24.843Z | INFO   | Server started in PORT | 3001
+2025-11-19T06:12:25.636Z | INFO   | DB Connection Established
+2025-11-20T05:08:28.917Z | INFO   | Server started in PORT | 3001
+2025-11-20T05:08:34.988Z | INFO   | DB Connection Established
+2025-11-20T05:08:50.898Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:08:51.144Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-20T05:08:51.161Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:08:51.632Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:08:51.635Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:08:51.638Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:08:51.639Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:08:51.641Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:08:51.740Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:08:53.141Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-20T05:08:56.651Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:08:57.829Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:08:57.884Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:08:57.976Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-20T05:08:59.277Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:19.778Z | INFO   | API HIT : [POST] /api/expense/v1/add | {"expenseName":"sa","expenseDescription":"asd","expenseAmount":10000,"expenseCategory":"Transportation","expenseDate":"2025-11-20T05:08:59.221Z","expenseMembers":["sairamh161@gmail.com","sairamh181@gmail.com"],"expenseOwner":"sairamh161@gmail.com","groupId":"691b60167a0e1d4c00821785","expenseType":"Cash"}
+2025-11-20T05:09:21.234Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:21.326Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:21.504Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:21.506Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:21.595Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:09:58.080Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh181@gmail.com"}
+2025-11-20T05:09:58.153Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691b5ff57a0e1d4c00821779","emailId":"sairamh181@gmail.com","firstName":"prateek","lastName":"S","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-20T05:09:58.529Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691b5ff57a0e1d4c00821779","emailId":"sairamh181@gmail.com","firstName":"prateek","lastName":"S","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-20T05:09:58.530Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh181@gmail.com"}
+2025-11-20T05:09:58.532Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh181@gmail.com"}
+2025-11-20T05:09:58.532Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh181@gmail.com"}
+2025-11-20T05:09:58.533Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691b5ff57a0e1d4c00821779","emailId":"sairamh181@gmail.com","firstName":"prateek","lastName":"S","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-20T05:09:58.619Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh181@gmail.com"}
+2025-11-20T05:18:18.071Z | INFO   | API HIT : [POST] /api/users/v1/login | {"emailId":"sairamh161@gmail.com","password":"123123123","remember":true}
+2025-11-20T05:18:18.739Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:18:19.557Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:18:19.836Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:18:19.838Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:18:19.842Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:18:19.843Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:18:19.844Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:18:19.953Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh161@gmail.com"}
+2025-11-20T05:18:43.097Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:18:50.386Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:18:50.469Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:18:50.787Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:18:50.789Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:18:50.928Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp | {"id":"691b60167a0e1d4c00821785"}
+2025-11-20T05:18:53.709Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:18:54.639Z | INFO   | API HIT : [GET] /api/users/v1/emailList | {}
+2025-11-20T05:19:25.828Z | INFO   | API HIT : [POST] /api/group/v1/add | {"groupName":"home expenses","groupDescription":"this grp for home expenses","groupCurrency":"INR","groupCategory":"Home","groupMembers":["sairamh161@gmail.com","sairamh181@gmail.com"],"groupOwner":"sairamh161@gmail.com"}
+2025-11-20T05:19:27.403Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:27.494Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:27.662Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-20T05:19:29.755Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c369584a0931427e3bdde","emailId":"sairamh161@gmail.com","firstName":"sai","lastName":"R","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE2MUBnbWFpbC5jb20.hqOpr0-q1lB4shzp9_sG7F2IJqSwBNuEqt0pmyPaZGU"}
+2025-11-20T05:19:33.050Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:33.129Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:33.203Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-20T05:19:35.542Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:58.745Z | INFO   | API HIT : [POST] /api/expense/v1/add | {"expenseName":"Milk","expenseDescription":"brought milk","expenseAmount":50,"expenseCategory":"Food & drink","expenseDate":"2025-11-20T05:19:35.493Z","expenseMembers":["sairamh161@gmail.com","sairamh181@gmail.com"],"expenseOwner":"sairamh161@gmail.com","groupId":"691ea4dd4dff47a607b74e6e","expenseType":"UPI Payment"}
+2025-11-20T05:19:59.894Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:19:59.969Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:20:00.059Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:20:00.061Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:20:00.134Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:20:41.459Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:21:01.519Z | INFO   | API HIT : [POST] /api/expense/v1/add | {"expenseName":"transport","expenseDescription":"safjhas","expenseAmount":3000,"expenseCategory":"Transportation","expenseDate":"2025-11-20T05:20:41.411Z","expenseMembers":["sairamh161@gmail.com","sairamh181@gmail.com"],"expenseOwner":"sairamh181@gmail.com","groupId":"691ea4dd4dff47a607b74e6e","expenseType":"Cash"}
+2025-11-20T05:21:02.301Z | INFO   | API HIT : [POST] /api/group/v1/view | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:21:02.468Z | INFO   | API HIT : [POST] /api/expense/v1/group | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:21:02.564Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:21:02.566Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-20T05:21:02.652Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp | {"id":"691ea4dd4dff47a607b74e6e"}

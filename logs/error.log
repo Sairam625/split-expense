@@ -173,3 +173,8 @@
     at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
 2025-11-18T17:26:23.128Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
 2025-11-18T17:26:23.514Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-20T05:08:51.144Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-11-20T05:08:53.141Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-11-20T05:08:57.976Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-20T05:19:27.662Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-11-20T05:19:33.203Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
