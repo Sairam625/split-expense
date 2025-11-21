@@ -1,128 +1,70 @@
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<div align="center">
-  <a href="https://splitapp-rnjo.onrender.com/">
-    <img src="https://github.com/tuzup/SplitApp/blob/master/client/public/static/logo.png?raw=true" alt="Logo" width="80" height="80">
-  </a>
+## Available Scripts
 
-  <h2 align="center">SplitApp</h2>
+In the project directory, you can run:
 
-  <p align="center">
-    Build with the MERN stack (MongoDB, Express, React and NodeJS).
-    <br />
-    <a href="https://github.com/tuzup/SplitApp/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://splitapp-rnjo.onrender.com/">View Demo</a>
-    ·
-    <a href="https://github.com/tuzup/SplitApp/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/tuzup/SplitApp/issues">Request Feature</a>
-  </p>
-</div>
+### `npm start`
 
-![SplitApp](https://raw.githubusercontent.com/tuzup/SplitApp/master/Screenshots/dashboard-main-transparent.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## MERN Stack Group Expense Splitting Application
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  * [Introduction](#introduction)
-  * [Key Features](#key-features)
-  * [Technologies used](#technologies-used)
-      - [Frontend](#frontend)
-      - [Backend](#backend)
-      - [Database](#database)
-  * [Configuration and Setup](#configuration-and-setup)
-  * [License](#license)
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Introduction
-This is a side project I've been working on. A full stack expense spliting app - splitwise clone made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed to split group expense between friends. With this application, you can add your expense details and get an whole expense analytics feature - Group Balance, Monthly amount spend, Catagory wise expense spending graph etc... Jump right off the [Live App](https://splitapp-rnjo.onrender.com/) and start adding your expenses or download the entire [Source code](https://github.com/tuzup/SplitApp/) and run it on your server. This project is something I've been working on in my free time so I cannot be sure that everything will work out correctly. But I'll appreciate you if can report any issue.
+### `npm run build`
 
-![Features](https://raw.githubusercontent.com/tuzup/SplitApp/master/Screenshots/combined-screenshot.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Key Features
-- Create user groups and track group expense 
-- Keep track of shared expenses and settle your corresponding balances in a convenient and personalized way. 
-- Get Analytical graphs to understand your expenditure trend 
-- Multiple user registration.
-- Authentication using JSON web token (JWT) 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Technologies used
-This project was created using the following technologies.
+### `npm run eject`
 
-#### Frontend
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- React JS
-- Redux (for managing and centralizing application state)
-- Axios (for making api calls)
-- Material UI (for User Interface)
-- Chart.js (To display various analytics graphs)
-- React-chartjs-2  
-- Gravitar (for user profile picture)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Backend
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Express
-- Mongoose
-- JWT (For authentication)
-- bcryptjs (for data encryption)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Database
-MongoDB (MongoDB Atlas)
+## Learn More
 
-## Configuration and Setup
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine. 
-- Open the project in your prefered code editor.
-- Go to terminal -> New terminal (If you are using VS code)
-- Split your terminal into two (run the client on one terminal and the server on the other terminal)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-In the first terminal - Setup Clinet 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```
-$ cd client
-$ npm install (to install client-side dependencies)
-$ npm start (to start the client)
-```
+### Code Splitting
 
-For setting up backend (root directory) 
-- create a .env file in the root of your directory.
-- Supply the following credentials
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```
-PORT=3001
-MONGODB_URI=
-ACCESS_TOKEN_SECRET=
+### Analyzing the Bundle Size
 
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Please follow [This tutorial](https://dev.to/dalalrohit/how-to-connect-to-mongodb-atlas-using-node-js-k9i) to create your mongoDB connection url, which you'll use as your MONGODB_URI
+### Making a Progressive Web App
 
-Provide some random key in ACCESS_TOKEN_SECRET or you could generate one using node enter the below command in the terminal to genrate a random secret key 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```
-node -e "console.log(require('crypto').randomBytes(256).toString('base64'));"
-```
+### Advanced Configuration
 
-In the second terminal (*in the project root directory (back-end))
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-```
-$ npm install (to install server-side dependencies)
-& npm start (to start the server)
-```
+### Deployment
 
-## Comment
-I intend to keep adding more features to this application, so if you like it, please give it a star, that will encourage me to 
-to keep improving the project.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## License
+### `npm run build` fails to minify
 
-This project is MIT licensed.
-
-Copyright 2022 Sunny G Vaikathuparampan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
