@@ -642,3 +642,32 @@
 2025-11-20T05:21:02.564Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp | {"id":"691ea4dd4dff47a607b74e6e"}
 2025-11-20T05:21:02.566Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp | {"id":"691ea4dd4dff47a607b74e6e"}
 2025-11-20T05:21:02.652Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp | {"id":"691ea4dd4dff47a607b74e6e"}
+2025-11-21T04:26:10.971Z | INFO   | Server started in PORT | 3001
+2025-11-21T04:26:11.761Z | INFO   | DB Connection Established
+2025-11-21T04:27:45.232Z | INFO   | API HIT : [POST] /api/users/v1/login | {"emailId":"sairamh181@gmail.com","password":"123123123","remember":true}
+2025-11-21T04:27:45.938Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:46.022Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:46.138Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:46.145Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:46.149Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:46.151Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:46.152Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:46.239Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:47.585Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:48.368Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:48.435Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:48.567Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:48.569Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:48.570Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:48.572Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:48.574Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:48.629Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:49.107Z | INFO   | API HIT : [GET] /api/users/v1/emailList | {}
+2025-11-21T04:27:49.867Z | INFO   | API HIT : [POST] /api/expense/v1/user | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:49.942Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:50.098Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:50.100Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:50.102Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:50.103Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent | {"user":"sairamh181@gmail.com"}
+2025-11-21T04:27:50.104Z | INFO   | API HIT : [POST] /api/group/v1/user | {"status":"Success","message":"User Login Success","userId":"691c36e484a0931427e3bdf2","emailId":"sairamh181@gmail.com","firstName":"Prateek","lastName":"s","accessToken":"eyJhbGciOiJIUzI1NiJ9.c2FpcmFtaDE4MUBnbWFpbC5jb20.JtQzboYXcO0mPV_UA9rmGxkOZF7PGaagY5wWWhPFc2o"}
+2025-11-21T04:27:50.152Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp | {"user":"sairamh181@gmail.com"}
