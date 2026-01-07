@@ -62,5 +62,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://split-expense-backend-jpe4.onrender.com"
+  "proxy": "http://localhost:5001"
 }
