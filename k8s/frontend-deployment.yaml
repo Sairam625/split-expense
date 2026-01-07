@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: split-expense-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: split-expense-frontend
+  template:
+    metadata:
+      labels:
+        app: split-expense-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: chaiiiram/split-expense-frontend:latest
+          ports:
+            - containerPort: 80
+          env:
+            - name: REACT_APP_API_URL
+              value: "http://split-expense-backend-service:3001"
